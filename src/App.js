@@ -1,8 +1,16 @@
 import React from 'react';
+import Layout from "./components/Layout";
+import Balance from "./components/Balance";
+import Form from "./components/Form";
+import Transactions from "./components/Transactions";
 
 function App() {
     return (
-        <h1>REDUX Expense Tracker</h1>
+        <Layout>
+            <Balance/>
+            <Form/>
+            <Transactions/>
+        </Layout>
     );
 }
 
