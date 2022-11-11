@@ -151,7 +151,7 @@ label {
 
 .right {
     display: inline-flex;
-    gap: 10;
+    gap: 10px;
 }
 
 .right p {
@@ -219,4 +219,8 @@ label {
     * {
         font-size: 95% !important;
     }
+}
+
+.error {
+    color: red;
 }

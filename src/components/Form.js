@@ -7,7 +7,7 @@ function Form() {
     const [type, setType] = useState('');
     const [amount, setAmount] = useState('');
     const dispatch = useDispatch();
-    const {isLoading, isError, errorMsg} = useSelector(state => state.transaction)
+    const {isLoading, isError} = useSelector(state => state.transaction)
 
 
     const handleCreate = (e) => {
@@ -75,7 +75,7 @@ function Form() {
 
                 <button disabled={isLoading} className="btn" type='submit'>Add Transaction</button>
 
-                {!isLoading && !isError && <p>There was an error occurred {errorMsg}</p>}
+                {!isLoading && isError && <p>There was an error occurred</p>}
 
             </form>
             <button className="btn cancel_edit">Cancel Edit</button>

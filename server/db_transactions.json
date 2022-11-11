@@ -29,6 +29,36 @@
       "type": "expense",
       "amount": 5000,
       "id": 5
+    },
+    {
+      "name": "rew",
+      "type": "income",
+      "amount": 2343,
+      "id": 6
+    },
+    {
+      "name": "rew",
+      "type": "expense",
+      "amount": 2343,
+      "id": 7
+    },
+    {
+      "name": "rew",
+      "type": "expense",
+      "amount": 2343,
+      "id": 8
+    },
+    {
+      "name": "rew",
+      "type": "expense",
+      "amount": 2343,
+      "id": 9
+    },
+    {
+      "name": "rewrwer",
+      "type": "income",
+      "amount": 2343242,
+      "id": 10
     }
   ]
 }
