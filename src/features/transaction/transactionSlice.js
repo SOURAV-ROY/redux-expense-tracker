@@ -8,19 +8,19 @@ const initialState = {
     errorMsg: ''
 }
 
-const fetchTransactions = createAsyncThunk('transaction/fetchTransactions', async () => {
+export const fetchTransactions = createAsyncThunk('transaction/fetchTransactions', async () => {
     return await getTransactions();
 });
 
-const createTransaction = createAsyncThunk('transaction/createTransaction', async (data) => {
+export const createTransaction = createAsyncThunk('transaction/createTransaction', async (data) => {
     return await addTransaction(data);
 });
 
-const changeTransaction = createAsyncThunk('transaction/changeTransaction', async ({id, data}) => {
+export const changeTransaction = createAsyncThunk('transaction/changeTransaction', async ({id, data}) => {
     return await editTransaction(id, data);
 });
 
-const removeTransaction = createAsyncThunk('transaction/removeTransaction', async (id) => {
+export const removeTransaction = createAsyncThunk('transaction/removeTransaction', async (id) => {
     return await deleteTransaction(id);
 });
 
