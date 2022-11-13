@@ -1,16 +1,28 @@
 {
   "transactions": [
     {
-      "name": "Salary form google",
+      "name": "Salary",
       "type": "income",
-      "amount": 999999,
+      "amount": 100000,
       "id": 1
     },
     {
-      "name": "Home expence",
+      "name": "House",
       "type": "expense",
-      "amount": 66666,
+      "amount": 50000,
       "id": 2
+    },
+    {
+      "name": "Expense",
+      "type": "expense",
+      "amount": 60000,
+      "id": 3
+    },
+    {
+      "name": "Google",
+      "type": "income",
+      "amount": 100000,
+      "id": 4
     }
   ]
 }

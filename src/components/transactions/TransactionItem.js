@@ -3,6 +3,7 @@ import EditImage from "../../assets/images/edit.svg";
 import DeleteImage from "../../assets/images/delete.svg";
 import {useDispatch} from "react-redux";
 import {editActive, removeTransaction} from "../../features/transaction/transactionSlice";
+import numberWithCommas from "../../utils/thousandSeparator";
 
 function TransactionItem({transaction}) {
     const {id, name, amount, type} = transaction || {};
@@ -20,7 +21,7 @@ function TransactionItem({transaction}) {
         <li className={`transaction ${type}`}>
             <p>{name}</p>
             <div className="right">
-                <p>৳ {amount}</p>
+                <p>৳ {numberWithCommas(amount)}</p>
                 <button className="link" onClick={handleEdit}>
                     <img
                         className="icon"
