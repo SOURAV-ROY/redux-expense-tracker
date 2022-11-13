@@ -1,28 +1,16 @@
 {
   "transactions": [
     {
-      "name": "Salary from FB",
+      "name": "Salary form google",
       "type": "income",
-      "amount": 100000,
+      "amount": 999999,
       "id": 1
     },
     {
-      "name": "Family Expenses",
+      "name": "Home expence",
       "type": "expense",
-      "amount": 200000,
+      "amount": 66666,
       "id": 2
-    },
-    {
-      "name": "Google",
-      "type": "income",
-      "amount": 100000,
-      "id": 3
-    },
-    {
-      "name": "Upori Income",
-      "type": "income",
-      "amount": 1111000,
-      "id": 4
     }
   ]
 }
