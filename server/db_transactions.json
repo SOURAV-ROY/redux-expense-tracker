@@ -1,64 +1,28 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "name": "Salary from Google",
+      "name": "Salary from FB",
       "type": "income",
-      "amount": 1000000
+      "amount": 100000,
+      "id": 1
     },
     {
-      "id": 2,
       "name": "Family Expenses",
       "type": "expense",
-      "amount": 200000
+      "amount": 200000,
+      "id": 2
     },
     {
-      "name": "test",
+      "name": "Google",
       "type": "income",
-      "amount": "2000",
+      "amount": 100000,
       "id": 3
     },
     {
-      "name": "Expense taka",
-      "type": "expense",
-      "amount": "500",
+      "name": "Upori Income",
+      "type": "income",
+      "amount": 1111000,
       "id": 4
-    },
-    {
-      "name": "Expense taka",
-      "type": "expense",
-      "amount": 5000,
-      "id": 5
-    },
-    {
-      "name": "rew",
-      "type": "income",
-      "amount": 2343,
-      "id": 6
-    },
-    {
-      "name": "rew",
-      "type": "expense",
-      "amount": 2343,
-      "id": 7
-    },
-    {
-      "name": "rew",
-      "type": "expense",
-      "amount": 2343,
-      "id": 8
-    },
-    {
-      "name": "rew",
-      "type": "expense",
-      "amount": 2343,
-      "id": 9
-    },
-    {
-      "name": "rewrwer",
-      "type": "income",
-      "amount": 2343242,
-      "id": 10
     }
   ]
 }
